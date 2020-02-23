@@ -1,0 +1,71 @@
+name : samplepipeline-118
+namespace : default
+status :
+  phase : Failed
+  nodes :
+    -  nodename : samplepipeline-118-1478766
+       name : samplepipeline-118.pipeline-dag.flowPocBuildStage.CloneFlowPoc2
+       displayname : CloneFlowPoc2
+       id : samplepipeline-118-1478766
+       phase : Succeeded
+       message :
+    -  nodename : samplepipeline-118-1872924849
+       name : samplepipeline-118.pipeline-dag.flowPocBuildStage.Entry-step-build
+       displayname : Entry-step-build
+       id : samplepipeline-118-1872924849
+       phase : Succeeded
+       message :
+    -  nodename : samplepipeline-118-1914325717
+       name : samplepipeline-118.pipeline-dag.flowPocTestStage.TestStep
+       displayname : TestStep
+       id : samplepipeline-118-1914325717
+       phase : Failed
+       message : failed with exit code 2
+    -  nodename : samplepipeline-118-2685072981
+       name : samplepipeline-118.pipeline-dag.flowPocBuildStage
+       displayname : flowPocBuildStage
+       id : samplepipeline-118-2685072981
+       phase : Succeeded
+       message :
+    -  nodename : samplepipeline-118-337965145
+       name : samplepipeline-118.pipeline-dag.flowPocBuildStage.BuildFlowStep
+       displayname : BuildFlowStep
+       id : samplepipeline-118-337965145
+       phase : Succeeded
+       message :
+    -  nodename : samplepipeline-118-3574508200
+       name : samplepipeline-118.pipeline-dag.flowPocBuildStage.CloneFlowPoc
+       displayname : CloneFlowPoc
+       id : samplepipeline-118-3574508200
+       phase : Succeeded
+       message :
+    -  nodename : samplepipeline-118-3720204063
+       name : samplepipeline-118.pipeline-dag.flowPocBuildStage.Exit-step-build
+       displayname : Exit-step-build
+       id : samplepipeline-118-3720204063
+       phase : Succeeded
+       message :
+    -  nodename : samplepipeline-118
+       name : samplepipeline-118
+       displayname : samplepipeline-118
+       id : samplepipeline-118
+       phase : Failed
+       message :
+    -  nodename : samplepipeline-118-1311676111
+       name : samplepipeline-118.pipeline-dag.flowPocTestStage
+       displayname : flowPocTestStage
+       id : samplepipeline-118-1311676111
+       phase : Failed
+       message :
+    -  nodename : samplepipeline-118-2082566941
+       name : samplepipeline-118.pipeline-dag.flowPocTestStage.Entry-step-test
+       displayname : Entry-step-test
+       id : samplepipeline-118-2082566941
+       phase : Succeeded
+       message :
+    -  nodename : samplepipeline-118-2743496647
+       name : samplepipeline-118.pipeline-dag
+       displayname : pipeline-dag
+       id : samplepipeline-118-2743496647
+       phase : Failed
+       message :

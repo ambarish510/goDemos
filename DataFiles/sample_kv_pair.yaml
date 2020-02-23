@@ -1,0 +1,9 @@
+github :
+  - owner: ambsflip
+    apiurl: http://github.com/api/v3
+    token:
+
+gihtubconfig:
+  ambsflip:
+    apiurl: http://github.com/api/v3
+    token:

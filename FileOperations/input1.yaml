@@ -1,0 +1,30 @@
+Name: samplepipeline-118
+Namespace: default
+Status:
+  - Phase : Running
+    Nodes :
+      -  samplepipeline-118-2743496647:
+          Name : samplepipeline-118.pipeline-dag
+          DisplayName : pipeline-dag
+          ID : samplepipeline-118-2743496647
+          Phase : Running
+      -  samplepipeline-118-3574508200:
+          Name : samplepipeline-118.pipeline-dag.flowPocBuildStage.CloneFlowPoc
+          DisplayName : CloneFlowPoc
+          ID : samplepipeline-118-3574508200
+          Phase : Running
+      -  samplepipeline-118:
+          Name : samplepipeline-118
+          DisplayName : samplepipeline-118
+          ID : samplepipeline-118
+          Phase : Running
+      -  samplepipeline-118-1872924849:
+          Name : samplepipeline-118.pipeline-dag.flowPocBuildStage.Entry-step-build
+          DisplayName : Entry-step-build
+          ID : samplepipeline-118-1872924849
+          Phase : Running
+      -  samplepipeline-118-2685072981:
+          Name : samplepipeline-118.pipeline-dag.flowPocBuildStage
+          DisplayName : flowPocBuildStage
+          ID : samplepipeline-118-2685072981
+          Phase : Running

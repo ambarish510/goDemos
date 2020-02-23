@@ -1,0 +1,12 @@
+{
+
+  "pipelineids":{
+    "100": "argov2beta",
+    "101": "argov1aplha"
+  },
+  "projectids":{
+    "100": "argov2beta",
+    "101": "argov1aplha"
+  }
+
+}

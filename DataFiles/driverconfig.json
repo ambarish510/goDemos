@@ -1,0 +1,15 @@
+[{
+  "workflowdriver": "argov2beta",
+  "pipelineids" :["100","101"],
+  "projectids": ["1001","1002"],
+  "tenantids":["10001","10002"],
+  "labels"  :["groceries"]
+},
+  {
+    "workflowdriver": "argov1aplha",
+    "pipelineids" :["102","103"],
+    "projectids": ["1003","1004"],
+    "tenantids":["10003","10004"],
+    "labels"  :["g-1"]
+  }
+]
